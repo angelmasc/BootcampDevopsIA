@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: encontros-tech
-        image: angelmasc/BootcampDevopsIA:latest
+        image: angelmasc/encontros-tech:latest
         ports:
         - containerPort: 8000
         env:
