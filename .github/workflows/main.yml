@@ -42,7 +42,7 @@ jobs:
                 push: true
                 tags: |
                   angelmasc/encontros-tech:latest
-                  angelmasc/encontros-tech:latest:v${{ github.run_number }}                 
+                  angelmasc/encontros-tech:v${{ github.run_number }}                 
 
     CD-Homolog:
         runs-on: ubuntu-latest
